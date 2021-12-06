@@ -1,0 +1,16 @@
+{
+    "files.associations": {
+        "*.tcc": "cpp",
+        "functional": "cpp",
+        "type_traits": "cpp",
+        "exception": "cpp",
+        "new": "cpp",
+        "typeinfo": "cpp",
+        "array": "cpp",
+        "memory": "cpp",
+        "istream": "cpp",
+        "tuple": "cpp",
+        "utility": "cpp",
+        "cmath": "cpp"
+    }
+}

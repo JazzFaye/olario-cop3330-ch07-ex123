@@ -1,0 +1,4 @@
+Being able to change the value of a variable is useful because the values can be changed if needed. 
+It also helps the user to do further calculations when needed. However, it can also be a source of problems
+especially when the user forgets the changes made and when they might need the previous value entered.
+Thus, can lead to wrong results in their calculations.
