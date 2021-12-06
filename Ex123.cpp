@@ -203,17 +203,19 @@ double primary() //Process the numbers, parentheses, sqrt etc.
 	case power: //For Power
 	{
 		 t = ts.get();
-        if (t.kind != '(') error("'(' expected");
+        if (t.kind != '(') error("'(' expected"); //Prints error if there is no '(' 
         double d = expression();
         t = ts.get();
-        if (t.kind != ',') error("',' expected");
+        if (t.kind != ',') error("',' expected"); //If there is no ','
         t = ts.get();
-		int i = int(t.value);
-        if (t.kind != number) error("Please provide the second argument");
-        if (i != t.value) error("Please make sure that the second argument is an integer.");
+
+		int i = int(t.value); //Declaration of variables
+		
+        if (t.kind != number) error("Please provide the second argument"); //If there is no second argument
+        if (i != t.value) error("Please make sure that the second argument is an integer."); //If the 2nd argument is not an integer
         t = ts.get();
-        if (t.kind != ')') error("')' expected");
-        return getpow(d,i);
+        if (t.kind != ')') error("')' expected"); //If there is no ')'
+        return getpow(d,i); 
 		}
 
 	default:
@@ -270,8 +272,6 @@ double expression() //Perform mathematical operations (+, -)
 
 double declaration(bool constant) //Declare name of variable
 {
-	
-
 	Token t2  = ts.get();
 	if (t2.kind != name) error ("name expected in declaration"); //Prints an error if there is no name
 	string name = t2.name;
