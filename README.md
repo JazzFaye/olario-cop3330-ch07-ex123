@@ -3,7 +3,7 @@
 #### Editied by : Jazz Faye Olario
 #### Note: 
 - I have made a text file for my explanation on (ex.02).
-- Please make sure to end each calculations and declarations with ";" to see the results and double check the value for the declared variables.
+- Please make sure to end each calculations and declarations with " ; " to see the results and double check the value for the declared variables.
 ---
 ### Doing Simple Calculations 
 1. Run the Program and enter a basic equation.
