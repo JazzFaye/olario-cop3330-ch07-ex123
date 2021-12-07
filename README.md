@@ -24,4 +24,3 @@
 1. Write in the following format (without the " "):
 - pow("Base number", "Exponent number");
 
-**This text is _extremely_ important**
