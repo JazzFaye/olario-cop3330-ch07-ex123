@@ -15,10 +15,10 @@
      - let "name" = "value;"
 - To edit the declared variable write in the following format (without the " ")"
      - "Variable to be edited" = "new value"
-3. To Declare a constant (Non editable) Variable please do the following:
+2. To Declare a constant (Non editable) Variable please do the following:
 - Write in the following formatio (without the " "):
      - const "name" = "value;"
-4. Where "name" is the name of the variable and "value" for the value of the variable
+3. Where "name" is the name of the variable and "value" for the value of the variable
 ---
 ### Calculating Exponents
 1. Write in the following format (without the " "):
