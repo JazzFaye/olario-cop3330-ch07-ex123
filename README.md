@@ -7,6 +7,7 @@
 ---
 ### Doing Simple Calculations 
 1. Run the Program and enter a basic equation.
+2. type "Exit" to end the program.
 ---
 ### Declaring Constants and Variables
 1. To Declare an EDITABLE Variable please do the following:
